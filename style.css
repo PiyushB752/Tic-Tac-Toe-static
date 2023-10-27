@@ -18,7 +18,7 @@ h1{
 }
 #boxes{
     position: absolute;
-    left: 37%;
+    left: 50%;
     right: 50%;
     display: grid;
     grid-template-columns: repeat(3,180px);
