@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');body{
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
     background-color: #2288f4;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 h1{
-    font-size: 150px;
+    font-size: 90px;
     color: #fab201;
     font-weight: 1500;
     -webkit-text-stroke: 0.3px #feffef; 
@@ -10,17 +13,17 @@ h1{
     text-align: center;
 }
 #box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9{
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 5px #cbcfd2;
 }
 #boxes{
     position: absolute;
-    left: 50%;
+    left: 35%;
     right: 50%;
     display: grid;
-    grid-template-columns: repeat(3,180px);
-    gap: 20px;
+    grid-template-columns: repeat(3,150px);
+    gap: 15px;
 }
