@@ -12,18 +12,29 @@ h1{
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
+h3{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top:400px;
+    font-weight: 5000;
+    font-family: 'Varela Round', sans-serif;
+    color: #feffef;
+    left: 50px;
+}
 #box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 5px #cbcfd2;
 }
 #boxes{
     position: absolute;
-    left: 35%;
+    top: 190px;
+    left: 38%;
     right: 50%;
     display: grid;
-    grid-template-columns: repeat(3,150px);
+    grid-template-columns: repeat(3,100px);
     gap: 15px;
 }
